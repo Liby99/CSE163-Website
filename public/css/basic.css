@@ -89,14 +89,33 @@ section,
     padding: 20px;
 }
 
-ul, p {
+ul, p, table {
     color: rgba(120, 120, 120, 1);
-    font-size: 14px;
+    font-size: 13px;
     line-height: 24px;
 }
 
-p strong {
+strong {
     color: rgba(66, 66, 66, 1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px 10px;
+    border-bottom: 1px solid rgba(220, 220, 220, 1);
+}
+
+thead tr td {
+    color: rgba(66, 66, 66, 1);
+    font-weight: bold;
+}
+
+table tr:hover > td {
+    background-color: rgba(25, 143, 240, 0.15);
 }
 
 footer {
