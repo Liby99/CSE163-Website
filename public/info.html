@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <title>CSE 163 - Advanced Computer Graphics</title>
+        <link rel="stylesheet" href="css/basic.css" />
+        <script src="js/jquery.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="container flex">
+                <div>
+                    <ul>
+                        <li>
+                            <a href="index.html" style="color: white">CSE 163<span class="disp-when-mobile"> - Advanced Computer Graphics</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="full">
+                    <ul class="flex reverse">
+                        <li>
+                            <a href="assignment.html">Assignment</a>
+                        </li>
+                        <li>
+                            <a href="schedule.html">Schedule</a>
+                        </li>
+                        <li>
+                            <a class="active" href="info.html">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="container">
+            <section>
+                <h2>Prerequisites</h2>
+                <p>
+                    CSE 163 is intended as a follow-on to CSE 167, and as such CSE 167 or the equivalent is a pre-requisite
+                    (you should have taken 167 or equivalent at another university, found the material interesting and done
+                    well in the course). The course also has minimal overlap with CSE 190 (Jurgen Schulze's class on virtual
+                    reality) that is taught simultaneously this spring. We have adjusted the timings so you can take both
+                    courses this quarter. (Other classes that don't overlap include CSE 165 and CSE 169 in winter; you are
+                    encouraged to take this course if you enjoyed those classes last quarter). In summary, the material in
+                    CSE 163 does not have any major overlap with other courses, although the initial signal-processing part
+                    may be a bit familiar if you have taken an image-processing course (CSE 166 is offered concurrently, so
+                    this is unlikely). At the same time, CSE 163 is intended to be a one-stop advanced graphics course,
+                    covering all topics in the field, and following on naturally from CSE 167. The course is intended to be
+                    of interest to MS and PhD students in graphics, vision or robotics, in addition to advanced undergraduates.
+                    If you like this course, I would highly recommend also registering for the advanced graduate courses like
+                    CSE 274 and 291, which will be taught next year.
+                </p>
+            </section>
+            <section>
+                <h2>Course Format and Requirements</h2>
+                <p>
+                    This is a regular lecture course, consisting of lectures on the relevant topics by the instructor. As
+                    opposed to CSE 167, this course is intended to have a more intimate feel, with a smaller class size,
+                    more in-class discussions and more independence and creative leeway in projects. We expect you to create
+                    websites to turn in your work. We also do not provide skeleton code, except for homework 1.
+                </p>
+                <p>
+                    Grading will be based entirely on 3 large programming projects. The last of these is a final project that
+                    provides some flexibility in design to students (while also providing a number of concrete options). The
+                    projects will cover signal/image processing, geometric modeling/meshes and real-time/image-based rendering.
+                </p>
+                <p>
+                    Students taking the course for a letter grade are required to do all three projects (this may be in groups
+                    of 2; the requirements remain unchanged if working alone, although we will consider in assigning the final
+                    grade).
+                    <strong>
+                        Programs must be implemented entirely by students themselves; You may not copy source code
+                        from previous instances of this or a similar class, other students, or other online etc. resources.
+                        You may also not post your source code publicly, including to github or other public repositories.
+                    </strong>
+                </p>
+                <p>
+                    <i>
+                        Please note that there is minimal hand-holding on the projects. They are large assignments for which
+                        you are given 3-4 weeks, and they cannot be done at the last moment. You will need to start early and
+                        work steadily. No late days will be given except in exceptional circumstances. Since you are supposed
+                        to be working steadily, turn in what you have by the deadline, even if it is not perfect. If you do have
+                        extraordinary circumstances, please contact the instructor well *before* the assignment is due.
+                    </i>
+                </p>
+                <p>
+                    We will also consider graduate students who want to take the course P/NP or S/U. Two of the three projects
+                    are still required in this case. However, you may obtain credit for one ongoing project (another class or
+                    research) in lieu of the final project. Therefore, graduate students taking the couse P/NP of S/U (they may
+                    obtain the full 4 units) would in most cases need to do only one project in all (one of the first two regular
+                    projects) to receive a passing grade. Please speak with me if you are interested in this option. Please
+                    note that a passing score in this course requires an average grade of 50%, whether taking the class on
+                    grades or pass-fail.
+                    <i>
+                        Thus, if choosing to take it pass-fail and do only two projects, you still need to get at least a 75%
+                        average on these two projects; if that does not happen, then you will need to do the third project to
+                        get an overall average of 50%.
+                    </i>
+                </p>
+            </section>
+            <section>
+                <h2>Topics</h2>
+                <p>
+                    Topics include an overview of many aspects of computer graphics, including the four main computer graphics
+                    areas of animation, modeling, rendering and imaging. Specific topics to be covered include
+                </p>
+                <ul>
+                    <li>
+                        Image and Signal Processing
+                    </li>
+                    <li>
+                        3D Modeling and Meshes
+                    </li>
+                    <li>
+                        Subdivision for Geometric Modeling
+                    </li>
+                    <li>
+                        Global Illumination and Rendering Equation
+                    </li>
+                    <li>
+                        Real-Time and Precomputation-Based Rendering
+                    </li>
+                    <li>
+                        Image-Based Rendering and Light Fields
+                    </li>
+                    <li>
+                        Animation and Inverse Kinematics
+                    </li>
+                    <li>
+                        Imaging and Computational Photography
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>Resources</h2>
+                <p>
+                    There are no books specifically required for this class. Readings including book chapters and papers are
+                    provided where needed for each lecture. Optionally, a comprehensive computer graphics book such as
+                    <i>Computer Graphics Principles and Practice</i> by Foley, van Dam et al. can be useful (a new edition
+                    recently came out).
+                </p>
+                <p>
+                    For resources on basic math, see
+                    <a target="_blank" href="http://joshua.smcvt.edu/linearalgebra/">linear algebra Free Text</a>. For resources
+                    on Fourier analysis, the
+                    <a target="_blank" href="http://www.dspguide.com">DSP Guide</a> may be useful (for example, chapters 8-13 on
+                    discrete fourier transforms). There are many other online links if you search the web.
+                </p>
+            </section>
+        </main>
+        <footer>
+            <a href="mailto:ravir@cs.ucsd.edu">Ravi Ramamoorthi</a>, Last Modified: Thu Mar 1 19:52:22 PST 2018
+        </footer>
+    </body>
+</html>

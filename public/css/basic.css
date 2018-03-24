@@ -89,7 +89,7 @@ section,
     padding: 20px;
 }
 
-p {
+ul, p {
     color: rgba(120, 120, 120, 1);
     font-size: 14px;
     line-height: 24px;
