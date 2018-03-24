@@ -10,14 +10,23 @@
                 <div>
                     <ul>
                         <li>
-                            <a href="163.html" style="color: white">CSE 163<span class="no-when-mobile"> - Advanced Computer Graphics</span></a>
+                            <a href="163.html" style="color: white">
+                                <span class="no-when-mobile">CSE 163 - </span>Advanced Computer Graphics
+                            </a>
                         </li>
                     </ul>
                 </div>
                 <div class="full">
-                    <ul class="flex reverse">
+                    <div class="flex reverse">
+                        <a href="javascript:toggleMenu()" class="menu-btn disp-when-mobile">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                    </div>
+                    <ul class="menu no-when-mobile">
                         <li>
-                            <a href="assignment.html">Assignments</a>
+                            <a href="assignments.html">Assignments</a>
                         </li>
                         <li>
                             <a href="schedule.html">Schedule</a>
@@ -31,12 +40,13 @@
         </nav>
         <main class="container">
             <section>
+                <h2>Information</h2>
                 <center>
                     <img src="img/all.jpg" width="100%" />
                 </center>
             </section>
             <section>
-                <h2>Prerequisites</h2>
+                <h3>Prerequisites</h3>
                 <p>
                     CSE 163 is intended as a follow-on to CSE 167, and as such CSE 167 or the equivalent is a pre-requisite
                     (you should have taken 167 or equivalent at another university, found the material interesting and done
@@ -54,7 +64,7 @@
                 </p>
             </section>
             <section>
-                <h2>Course Format and Requirements</h2>
+                <h3>Course Format and Requirements</h3>
                 <p>
                     This is a regular lecture course, consisting of lectures on the relevant topics by the instructor. As
                     opposed to CSE 167, this course is intended to have a more intimate feel, with a smaller class size,
@@ -101,7 +111,7 @@
                 </p>
             </section>
             <section>
-                <h2>Topics</h2>
+                <h3>Topics</h3>
                 <p>
                     Topics include an overview of many aspects of computer graphics, including the four main computer graphics
                     areas of animation, modeling, rendering and imaging. Specific topics to be covered include
@@ -134,7 +144,7 @@
                 </ul>
             </section>
             <section>
-                <h2>Resources</h2>
+                <h3>Resources</h3>
                 <p>
                     There are no books specifically required for this class. Readings including book chapters and papers are
                     provided where needed for each lecture. Optionally, a comprehensive computer graphics book such as
@@ -153,5 +163,6 @@
         <footer>
             <a href="mailto:ravir@cs.ucsd.edu">Ravi Ramamoorthi</a>, Last Modified: Thu Mar 1 19:52:22 PST 2018
         </footer>
+        <script src="js/basic.js"></script>
     </body>
 </html>
